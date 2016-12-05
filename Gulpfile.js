@@ -4,7 +4,8 @@ var gulp = require('gulp'),
     minifyCss = require('gulp-minify-css'),
     autoprefixer = require('gulp-autoprefixer'),
     rev = require('gulp-rev'),
-    revDel = require('rev-del');
+    revDel = require('rev-del'),
+    connect = require('gulp-connect');
     
 gulp.task('build', function() {
     gulp.src('img/*')
@@ -19,5 +20,13 @@ gulp.task('build', function() {
         .pipe(rev.manifest())
         .pipe(revDel({dest: 'build/'}))
         .pipe(gulp.dest('build/'));
+});
+
+gulp.task('serveprod', function() {
+  connect.server({
+    root: './',
+    port: process.env.PORT || 8080, 
+    livereload: false
+  });
 });
     
