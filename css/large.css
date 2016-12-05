@@ -1,0 +1,11 @@
+@media (min-width: 850px) {
+    .menus {
+        display: flex;
+        flex-wrap: wrap;
+    }
+    
+    .menu-group {
+        flex-grow: 1;
+        margin: 20px;
+    }
+}

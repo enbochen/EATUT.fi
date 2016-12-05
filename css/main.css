@@ -1,0 +1,96 @@
+body {
+    margin: 0;
+    padding: 20px 40px;
+    
+    font-family: 'Vollkorn', serif;
+    
+    background: #fefefe;
+    color: #222;
+}
+
+h1 {
+    font-weight: 300;
+}
+
+.top-container, .current-date {
+    text-align: center;
+}
+
+.restaurant-link {
+    text-decoration: none;
+    color: #222;
+}
+
+.link-icon {
+    margin-left: 5px;
+    font-size: 65%;
+    color: #888;
+}
+
+.menu {
+    margin-bottom: 80px;
+}
+
+.menu-name {
+    display: inline-block;
+    font-weight: 300;
+}
+
+.meal-name {
+    font-size: 13pt;
+    font-weight: normal;
+    
+    text-transform: uppercase;
+    color: #bbb;
+}
+
+.meal-prices {
+    display: inline-block;
+    
+    margin-left: 15px;
+    font-size: 70%;
+    font-weight: normal;
+    
+    color: #888;
+}
+
+.meal-diets {
+    display: inline-block;
+    
+    margin-left: 15px;
+    
+    font-size: 75%;
+    color: #888;
+}
+
+ul {
+    list-style-type: none;
+    padding-left: 25px;
+}
+
+.nav-button {
+    margin: 5px;
+    padding: 10px 15px;
+    border: 1px solid #222;
+    border-radius: 5px;
+    font-family: 'Vollkorn', serif;
+    
+    font-size: 11pt;
+    
+    background: transparent;
+    color: #222;
+    
+    transition: background ease-in-out 0.1s;
+}
+
+.nav-button:hover {
+    background: rgba(255, 255, 255, 0.2);
+    cursor: pointer;
+}
+
+.loading-icon {
+    margin-top: 50px;
+    text-align: center;
+    
+    font-size: 200%;
+}

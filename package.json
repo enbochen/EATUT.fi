@@ -1,0 +1,28 @@
+{
+  "name": "eatut-classical",
+  "version": "1.0.0",
+  "description": "TUT:Menu",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/aprilsnows/eatut-classicalt"
+  },
+  "author": "April Snow",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/aprilsnows/eatut-classical/issues"
+  },
+  "homepage": "https://github.com/aprilsnows/eatut-classical",
+  "devDependencies": {
+    "gulp": "^3.9.0",
+    "gulp-autoprefixer": "^2.3.1",
+    "gulp-minify-css": "^1.2.0",
+    "gulp-rev": "^5.1.0",
+    "gulp-uglify": "^1.2.0",
+    "gulp-usemin": "^0.3.11",
+    "rev-del": "^1.0.5"
+  }
+}
