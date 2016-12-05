@@ -15,7 +15,7 @@
         template = doT.template(source),
         loadingIcon = '<div class="loading-icon"><i class="fa fa-circle-o-notch fa-spin"></i></div>',
         
-        apiUrl = 'http://tutmenuapi.ncphdpxnki.us-west-2.elasticbeanstalk.com/';
+        apiUrl = 'https://eatut-api.herokuapp.com/';
         
     updateMenus(selectedDate);
     
