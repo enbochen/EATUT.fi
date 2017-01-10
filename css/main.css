@@ -12,8 +12,14 @@ h1 {
     font-weight: 300;
 }
 
-.top-container, .current-date {
-    text-align: center;
+.top-container{
+    /*text-align: center;*/
+    display: inline-block;
+    vertical-align: middle; 
+}
+
+.top-group, .current-date {
+  text-align: center;
 }
 
 .restaurant-link {
@@ -93,4 +99,10 @@ ul {
     text-align: center;
     
     font-size: 200%;
+}
+
+.bear {
+  width: 40%;
+  display: inline-block;
+  vertical-align: middle; 
 }
