@@ -1,6 +1,6 @@
 body {
     margin: 0;
-    padding: 20px 40px;
+    padding: 0px 40px;
     
     font-family: 'Vollkorn', serif;
     
@@ -19,14 +19,14 @@ h1 {
 }
 
 .bear {
-  width: 32%;
+  width: 35%;
   display: inline-block;
   vertical-align: middle; 
 }
 
 .name {
   font-family: 'Merienda One', cursive;
-  font-size:250%
+  font-size: 250%
 }
 
 .saying {

@@ -4,7 +4,8 @@
     moment.locale('fi');
     
     // var weekdays = ['maanantai', 'tiistai', 'keskiviikko', 'torstai', 'perjantai', 'lauantai', 'sunnuntai'];
-    var weekdays = ['Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday', 'Sunday'];
+    var weekdays = ['Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday', 'Sunday'],
+        lang = 'en';
 
     
     var selectedDate = moment(new Date());
@@ -24,7 +25,7 @@
         
         selectedDate.add(1, 'day');
         
-        updateMenus(selectedDate);
+        updateMenus(selectedDate, lang);
     });
     
     document.getElementById('prev-day').addEventListener('click', function(event) {
@@ -32,15 +33,31 @@
         
         selectedDate.subtract(1, 'day');
         
-        updateMenus(selectedDate);
+        updateMenus(selectedDate, lang);
+    });
+    
+    document.getElementById('lang-en').addEventListener('click', function(event) {
+        event.preventDefault(); 
+        
+        lang = 'en';
+        
+        updateMenus(selectedDate,lang);
+    });
+    
+    document.getElementById('lang-fi').addEventListener('click', function(event) {
+        event.preventDefault();
+        
+        lang = 'fi';
+                  
+        updateMenus(selectedDate,lang);
     });
         
     
-    function updateMenus(date) {
+    function updateMenus(date, lang) {
         contentElem.innerHTML = loadingIcon;
         
         var dateString = date.format('YYYY-MM-DD'),
-            requestUrl = apiUrl + dateString;
+            requestUrl = apiUrl + dateString + '/' + lang;
             
         var req = new XMLHttpRequest();
         
