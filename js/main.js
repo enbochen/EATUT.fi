@@ -18,7 +18,7 @@
         
         apiUrl = 'https://eatut-api.herokuapp.com/';
         
-    updateMenus(selectedDate);
+    updateMenus(selectedDate, lang);
     
     document.getElementById('next-day').addEventListener('click', function(event) {
         event.preventDefault();
