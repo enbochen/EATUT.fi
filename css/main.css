@@ -1,9 +1,6 @@
 body {
     margin: 0;
-    padding: 0px 40px;
-    
-    font-family: 'Vollkorn', serif;
-    
+    padding: 0px 40px;  
     background: #fefefe;
     color: #222;
 }
@@ -35,6 +32,7 @@ h1 {
 
 .top-group, .current-date {
   text-align: center;
+  font-family: 'Merienda One', cursive;
 }
 
 .restaurant-link {
@@ -50,11 +48,7 @@ h1 {
 
 .menu {
     margin-bottom: 80px;
-}
-
-.menu-name {
-    display: inline-block;
-    font-weight: 300;
+    font-family: 'Merienda', cursive;
 }
 
 .meal-name {
@@ -63,6 +57,11 @@ h1 {
     
     text-transform: uppercase;
     color: #bbb;
+    
+}
+
+.meal-contents {
+  font-family: 'Vollkorn', serif;
 }
 
 .meal-prices {
@@ -82,6 +81,8 @@ h1 {
     
     font-size: 75%;
     color: #888;
+    
+    font-family: 'Vollkorn', serif;
 }
 
 ul {
