@@ -3,8 +3,8 @@
     
     moment.locale('fi');
     
-    // var weekdays = ['maanantai', 'tiistai', 'keskiviikko', 'torstai', 'perjantai', 'lauantai', 'sunnuntai'];
-    var weekdays = ['Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday', 'Sunday'],
+    var arkisin = ['maanantai', 'tiistai', 'keskiviikko', 'torstai', 'perjantai', 'lauantai', 'sunnuntai'],
+        weekdays = ['Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday', 'Sunday'],
         lang = 'en';
 
     
@@ -63,7 +63,7 @@
         
         req.addEventListener('load', function() {
             var context = JSON.parse(this.responseText);
-            context.date = weekdays[date.weekday()] + ' ' + date.format('D.M.');
+            context.date = (lang == 'en' ? weekdays[date.weekday()] : arkisin[date.weekday()] )+ ' ' + date.format('D.M.');
             
             contentElem.innerHTML = template(context);
         });
