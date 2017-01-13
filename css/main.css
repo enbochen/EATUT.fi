@@ -1,5 +1,5 @@
 body {
-    margin: 0;
+    margin: 4;
     padding: 0px 40px;  
     background: #fefefe;
     color: #222;
@@ -35,6 +35,17 @@ h1 {
   font-family: 'Merienda One', cursive;
 }
 
+.current-date {
+  /*padding: 40px 0px;  */
+   /*border-bottom: 3px solid #000; 
+   line-height:0.1em; 
+   margin:10px 0 20px;*/
+}
+
+/*.top-group {
+  background: #F9F9F9;
+}*/
+
 .restaurant-link {
     text-decoration: none;
     color: #222;
@@ -46,9 +57,17 @@ h1 {
     color: #888;
 }
 
+.menus {
+  /*padding: 0px 40px;  */
+  /*background: #ddd;*/
+}
+
 .menu {
     margin-bottom: 80px;
     font-family: 'Merienda', cursive;
+    /*border-radius: 25px;*/
+    /*background: #fff;*/
+    max-width:500px;
 }
 
 .meal-name {
