@@ -62,6 +62,20 @@ h1 {
   /*background: #ddd;*/
 }
 
+.footer{
+    font-family: 'Merienda One', cursive;
+    text-align: center;
+    height:50px;
+    margin-right: -40px; 
+    margin-left: -40px;
+    
+    background: #E0ABBA; /* For browsers that do not support gradients */        
+    background: -webkit-linear-gradient(-90deg, #E0ABBA, #71A7D0); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(-90deg, #E0ABBA, #71A7D0); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(-90deg, #E0ABBA, #71A7D0); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(-90deg, #E0ABBA, #71A7D0); /* Standard syntax (must be last) */
+}
+
 .menu {
     margin-bottom: 80px;
     font-family: 'Merienda', cursive;
