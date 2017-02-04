@@ -1,3 +1,5 @@
-# eatut.fi
+# EATUT.fi 
 
-For the love of food and TUT.
+For the love of food & TUT.
+
+![Screenshot](/img/eatut.png)
