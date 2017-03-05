@@ -14,7 +14,7 @@
     
         source = document.getElementById('main-template').innerHTML,
         template = doT.template(source),
-        loadingIcon = '<div class="loading-icon"><i class="fa fa-circle-o-notch fa-spin"></i></div>',
+        loadingIcon = '<img class="enso" src="./img/enso.gif"/>',
         
         apiUrl = 'https://eatut-api.herokuapp.com/';
         
