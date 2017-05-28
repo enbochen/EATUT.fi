@@ -6,7 +6,9 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "postinstall": "gulp build",
-    "start": "gulp serveprod"
+    "start": "gulp serveprod",
+    "snyk-protect": "snyk protect",
+    "prepublish": "npm run snyk-protect"
   },
   "repository": {
     "type": "git",
@@ -35,6 +37,8 @@
     "gulp-rev": "^5.1.0",
     "gulp-uglify": "^1.5.4",
     "gulp-usemin": "^0.3.26",
-    "rev-del": "^1.0.5"
-  }
+    "rev-del": "^1.0.5",
+    "snyk": "^1.31.0"
+  },
+  "snyk": true
 }
