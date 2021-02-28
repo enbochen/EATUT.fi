@@ -27,7 +27,7 @@
     "gulp-rev": "^5.1.0",
     "gulp-uglify": "^1.2.0",
     "gulp-usemin": "^0.3.11",
-    "rev-del": "^1.0.5"
+    "rev-del": "^2.0.0"
   },
   "dependencies": {
     "gulp": "^3.9.1",
@@ -37,7 +37,7 @@
     "gulp-rev": "^5.1.0",
     "gulp-uglify": "^1.5.4",
     "gulp-usemin": "^0.3.26",
-    "rev-del": "^1.0.5",
+    "rev-del": "^2.0.0",
     "snyk": "^1.88.0"
   },
   "snyk": true
